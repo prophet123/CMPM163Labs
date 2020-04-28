@@ -4,3 +4,10 @@
 
  
  All the labs for CMPM163
+
+
+
+
+Lab3:
+For the fourth cube on the right I interpolated between orange and pink using my own shaders
+Here is the video link: https://drive.google.com/file/d/1P8x17Xx62TnUb5chXcDrEQztEFTTiNuN/view?usp=sharing
