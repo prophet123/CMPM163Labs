@@ -9,7 +9,25 @@
 		</style>
 	</head>
 	<body>
-		<script src="../three.js-master/build/three.js"></script>
+		<script id="vertexShader" type="x-shader/x-vertex"> 
+			// code for vertex shader 
+			varying vec2 vUv; 
+			void main() { 
+			vUv = uv; 
+			vec4 modelViewPosition = modelViewMatrix * vec4(position, 1.0); 
+			gl_Position = projectionMatrix * modelViewPosition; 
+			} 
+			</script> 
+			  <script id="fragmentShader" type="x-shader/x-fragment"> 
+			// code for fragment shader 
+			uniform sampler2D texture1; 
+			varying vec2 vUv; 
+			void main() { 
+			vec2 tiles = vec2(2.0,2.0); 
+			vec2 vUv2 = fract( vUv * tiles); 
+			gl_FragColor = texture2D(texture1, vUv2); 
+			} 
+			</script> 
 		<script>
 			// setup the scene
       			var scene = new THREE.Scene();
@@ -110,62 +128,21 @@
 }
 
 			//shader2
-			var fshader2, vshader2;
-
-			loader.load('shaders/svertexShader.vert',
-      		// onLoad callback
-      		function (data) {
-      			console.log(data); // output the text to the console
-      			vshader2 = data;
-      			count += 1;
-      			addTextureShaderCube2(); 
-      		},
-      		// onProgress callback
-      		function (xhr) {
-      			console.log((xhr.loaded/xhr.total * 100)+ '% loaded');
-      		},
-     		// onError callback
-      		function (err) {
-      			console.error('An error happened');
-      		});
-
-			loader.load('shaders/SFragmentShader.frag',
-      		// onLoad callback
-      		function (data) {
-      			console.log(data); // output the text to the console
-      			fshader2 = data;
-      			count += 1;
-      			addTextureShaderCube2(); 
-      		},
-      		// onProgress callback
-      		function (xhr) {
-      			console.log((xhr.loaded/xhr.total * 100)+ '% loaded');
-      		},
-			// onError callback
-      		function (err) {
-      			console.error('An error happened');
-      		});
-
-
-			function addTextureShaderCube2() {
-			if(count == 3) {
-			var uniforms2 = {texture1: { type: "t", value: THREE.ImageUtils.loadTexture("157.jpg")}};
-
-				
-			      		geometry5 = new THREE.BoxGeometry(1, 1, 1);
-			      		material5 = new THREE.ShaderMaterial({
-							uniforms: uniforms2,
-							vertexShader: vshader2,
-							fragmentShader: fshader2
-							});
-
-			      		mesh1 = new THREE.Mesh(geometry5, material5);
-			      		mesh1.position.x = 4;
-			      		scene.add(mesh1);
-			    	}
-			}
-
-
+			// setup cube5 
+			function addTextureShaderCube2() { 
+ 			var uniforms2 = {texture1: { type: "t", value:  
+ 			THREE.ImageUtils.loadTexture("176.jpg")}}; 
+   			geometry2 = new THREE.BoxGeometry(1, 1, 1); 
+			 material2 = new THREE.ShaderMaterial({ 
+ 			uniforms: uniforms2, 
+ 			fragmentShader: document.getElementById('fragmentShader').textContent, 
+ 			vertexShader: document.getElementById('vertexShader').textContent, 
+ 			precision: "mediump"}); 
+   			mesh2 = new THREE.Mesh(geometry2, material2); 
+ 			mesh2.position.x = 4; 
+ 			scene.add(mesh2); 
+ 			}	 
+ 			addTextureShaderCube2(); 
 
 
 			var delta = -.4
