@@ -55,6 +55,10 @@
 			var count = 0;
 			var loader = new THREE.FileLoader();
 			var fshader, vshader;
+			var fshader2, vshader2;
+          
+
+
 
       	loader.load('shaders/vertexShader.vert',
       		// onLoad callback
@@ -90,31 +94,12 @@
       			console.error('An error happened');
       		});
 
-      		//texture SHADERS
+      		//texture 
+			
+			//second shader
 
-      		var geometry1, material1, mesh1;
 
-			function addTextureShaderCube() {
-			if(count == 2) {
-			var uniforms = {texture1: { type: "t", value: THREE.ImageUtils.loadTexture("159.jpg")}};
-
-				
-			      		geometry1 = new THREE.BoxGeometry(1, 1, 1);
-			      		material1 =  new THREE.ShaderMaterial({
-			            		uniforms: uniforms,
-			      			fragmentShader: fshader,
-			              		vertexShader: vshader,
-			      			precision: "mediump"});
-
-			      		mesh1 = new THREE.Mesh(geometry1, material1);
-			      		mesh1.position.x = 2;
-			      		scene.add(mesh1);
-			    	}
-			}
-			//second set of shaders for part last part
-			var fshader2, vshader2;
-
-      	loader.load('shaders/svertexShader.vert',
+			  loader.load('shaders/svertexShader.vert',
       		// onLoad callback
       		function (data) {
       			console.log(data); // output the text to the console
@@ -148,22 +133,42 @@
       			console.error('An error happened');
       		});
 
+      		var geometry1, material1, mesh1;
 
-function addTextureShaderCube2() {
-			if(count == 3) {
-			var uniforms = {texture1: { type: "t", value: THREE.ImageUtils.loadTexture("197.jpg")}};
+			function addTextureShaderCube() {
+			if(count == 2) {
+			var uniforms = {texture1: { type: "t", value: THREE.ImageUtils.loadTexture("159.jpg")}};
 
 				
-			      		geometry5 = new THREE.BoxGeometry(1, 1, 1);
-			      		material5 = new THREE.ShaderMaterial({
+			      		geometry1 = new THREE.BoxGeometry(1, 1, 1);
+			      		material1 =  new THREE.ShaderMaterial({
+			            		uniforms: uniforms,
+			      			fragmentShader: fshader,
+			              		vertexShader: vshader,
+			      			precision: "mediump"});
+
+			      		mesh1 = new THREE.Mesh(geometry1, material1);
+			      		mesh1.position.x = 2;
+			      		scene.add(mesh1);
+			    	}
+			}
+			//second shader
+
+
+			var geometry4, material4, mesh2;
+			function addTextureShaderCube2() {
+			if(count == 3) {
+			var uniforms = {texture1: { type: "t", value: THREE.ImageUtils.loadTexture("197.jpg")}};
+						geometry4 = new THREE.BoxGeometry(1, 1, 1);
+			      		material4 = new THREE.ShaderMaterial({
 							uniforms: uniforms,
 							vertexShader: vshader2,
-							fragmentShader: fshader2
-							});
+							fragmentShader: fshader,
+							precision: "mediump"});
 
-			      		mesh1 = new THREE.Mesh(geometry5, material5);
-			      		mesh1.position.x = 4;
-			      		scene.add(mesh1);
+			      		mesh2 = new THREE.Mesh(geometry4, material4);
+			      		mesh2.position.x = 4;
+			      		scene.add(mesh2);
 			    	}
 			}
 
