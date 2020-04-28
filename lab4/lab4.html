@@ -110,9 +110,7 @@
 }
 
 			//shader2
-
-
-
+			var fshader2, vshader2;
 
 			loader.load('shaders/svertexShader.vert',
       		// onLoad callback
@@ -150,13 +148,13 @@
 
 
 			function addTextureShaderCube2() {
-			if(count == 4) {
-			var uniforms = {texture1: { type: "t", value: THREE.ImageUtils.loadTexture("157.jpg")}};
+			if(count == 3) {
+			var uniforms2 = {texture1: { type: "t", value: THREE.ImageUtils.loadTexture("157.jpg")}};
 
 				
 			      		geometry5 = new THREE.BoxGeometry(1, 1, 1);
 			      		material5 = new THREE.ShaderMaterial({
-							uniforms: uniforms,
+							uniforms: uniforms2,
 							vertexShader: vshader2,
 							fragmentShader: fshader2
 							});
