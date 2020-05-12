@@ -37,3 +37,9 @@ video link: https://drive.google.com/file/d/1EV9XK0yUIVJq7Oegqs_Wp5MAxnXvPd-8/vi
 I added the red particle system so that the car looks like on fire while it's running. I also add bunch of buildings in the map. 
 I added several checkpoints and jumpramp into the road too. I changed the speed of the kart. And I added a hat on the player model. 
 
+
+
+Lab6: 
+My work: https://www.shadertoy.com/view/tdsfDs
+Something Cool: https://www.shadertoy.com/view/WdVXWy
+
