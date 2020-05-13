@@ -39,7 +39,33 @@ I added several checkpoints and jumpramp into the road too. I changed the speed 
 
 
 
-Lab6: 
+Lab6:
+part1: 
+Whole project:
+![WeChat Image_20200512225457](https://user-images.githubusercontent.com/37235144/81779542-c2fd8580-94a9-11ea-95e5-61a944b3ccc9.png)
+
+
+Point light: The purple one is the point light with a limit range. You can change the position and range of it. 
+
+Spotlight: The spot light is the green one. It's like the real spot light. 
+
+Directional light: The direction light in my scene is green. It makes the scene to be green for all corners. 
+
+Area light: This one only work on baked. The blue light is my area light in scene. It only lights the one side of the scene. 
+
+
+Material: The real object is a air fresher. To mnade it, I first create the material ball, then change the shader and color to make it look like the airfresher. But it's really not esay. I should pick a esay one to create. the real object: 
+![WeChat Image_20200512225438](https://user-images.githubusercontent.com/37235144/81779342-600bee80-94a9-11ea-9fe9-6188156af3ce.jpg)
+
+The real object I created is the cylinder behind the first circle. 
+
+Texture: I downloaded two texture pictures from the google, one is rock wall, the other is flowers. 
+
+Skybox: I download the free skyboxes from the unity and choose the one I like. 
+
+
+
+part2: 
 ![shadertoy](https://user-images.githubusercontent.com/37235144/81772171-0223da80-949a-11ea-96fc-f84020f9310d.png)
 
 My work: https://www.shadertoy.com/view/tdsfDs
