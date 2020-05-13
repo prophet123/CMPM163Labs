@@ -40,6 +40,8 @@ I added several checkpoints and jumpramp into the road too. I changed the speed 
 
 
 Lab6: 
+![shadertoy](https://user-images.githubusercontent.com/37235144/81772171-0223da80-949a-11ea-96fc-f84020f9310d.png)
+
 My work: https://www.shadertoy.com/view/tdsfDs
 Something Cool: https://www.shadertoy.com/view/WdVXWy
 
