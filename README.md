@@ -71,3 +71,22 @@ part2:
 My work: https://www.shadertoy.com/view/tdsfDs
 Something Cool: https://www.shadertoy.com/view/WdVXWy
 
+
+
+
+
+
+Lab7: 
+part2:
+![WeChat Image_20200519231057](https://user-images.githubusercontent.com/37235144/82411124-0a45c200-9a26-11ea-89c5-50de0156e4b7.png)
+
+This is the height map as the texture
+
+![WeChat Image_20200519231057](https://user-images.githubusercontent.com/37235144/82411225-3c572400-9a26-11ea-9c32-dc60885adaa3.png)
+
+This is the different texture as the texture. 
+
+
+Video for the blue plane: https://drive.google.com/file/d/14ewcBhTV2fTNnxnwMlbXZBKDXU-IuHEp/view?usp=sharing
+Video for the mountain water scene: https://drive.google.com/file/d/1f2JhmGaKuFQjXGJRRaN8FxLpHhhwt4XV/view?usp=sharing
+
