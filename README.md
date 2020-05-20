@@ -91,3 +91,5 @@ This is the different texture as the texture.
 Video for the blue plane: https://drive.google.com/file/d/14ewcBhTV2fTNnxnwMlbXZBKDXU-IuHEp/view?usp=sharing
 Video for the mountain water scene: https://drive.google.com/file/d/1f2JhmGaKuFQjXGJRRaN8FxLpHhhwt4XV/view?usp=sharing
 
+For partner part, I couldn't reach out my partner on discord, so we couldn't finish it on time. 
+
