@@ -78,7 +78,8 @@ Something Cool: https://www.shadertoy.com/view/WdVXWy
 
 Lab7: 
 part2:
-![WeChat Image_20200519231057](https://user-images.githubusercontent.com/37235144/82411124-0a45c200-9a26-11ea-89c5-50de0156e4b7.png)
+![WeChat Image_20200519231052](https://user-images.githubusercontent.com/37235144/82411424-98ba4380-9a26-11ea-8f01-fe2bb2fcbb15.png)
+
 
 This is the height map as the texture
 
