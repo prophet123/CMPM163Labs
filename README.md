@@ -107,5 +107,7 @@ Here is the screen shot of my generated city.
 ![WeChat Image_20200526234956](https://user-images.githubusercontent.com/37235144/82986970-a71ad900-9fab-11ea-9312-3f18804dac32.png)
 
 
-The reason it inspired me is because I think the city next to the mountain and ocean is really a nice view. 
+The reason it inspired me is because I think the city next to the mountain and ocean is really a nice view. So I changed the color of the city and lights, then added ocean surface and mountain next to it. 
+
+For partner part, my partner is unreachable on discord. 
 
