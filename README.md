@@ -93,3 +93,19 @@ Video for the mountain water scene: https://drive.google.com/file/d/1f2JhmGaKuFQ
 
 For partner part, I couldn't reach out my partner on discord, so we couldn't finish it on time. 
 
+
+
+Lab8: 
+Part2: 
+![207c5031_original](https://user-images.githubusercontent.com/37235144/82986766-4a1f2300-9fab-11ea-8ff0-cc68dcb84927.jpg)
+
+
+These are the pics inspired me generated city. 
+
+
+Here is the screen shot of my generated city. 
+![WeChat Image_20200526234956](https://user-images.githubusercontent.com/37235144/82986970-a71ad900-9fab-11ea-9312-3f18804dac32.png)
+
+
+The reason it inspired me is because I think the city next to the mountain and ocean is really a nice view. 
+
