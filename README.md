@@ -111,3 +111,44 @@ The reason it inspired me is because I think the city next to the mountain and o
 
 For partner part, my partner is unreachable on discord. 
 
+
+
+
+
+
+
+Lab9:
+part2: 
+1. 
+![1](https://user-images.githubusercontent.com/37235144/83594500-39732d80-a514-11ea-93e2-6d566fcd8e23.png)
+
+
+2. 
+![2](https://user-images.githubusercontent.com/37235144/83594547-590a5600-a514-11ea-99f5-91a19f0697e6.png)
+
+
+3. 
+![3](https://user-images.githubusercontent.com/37235144/83594571-6b848f80-a514-11ea-8e09-5c634d7ced3b.png)
+
+
+4.
+![4](https://user-images.githubusercontent.com/37235144/83594604-81925000-a514-11ea-8b8e-511179f95761.png)
+
+
+
+A. 
+![A](https://user-images.githubusercontent.com/37235144/83594962-7ee42a80-a515-11ea-9711-36c83738b75c.png)
+
+B. 
+![B](https://user-images.githubusercontent.com/37235144/83594974-89062900-a515-11ea-99dd-7d2eabd5b42a.png)
+
+
+C. 
+![C](https://user-images.githubusercontent.com/37235144/83594992-96bbae80-a515-11ea-903e-5f14c0031939.png)
+
+D.
+![D](https://user-images.githubusercontent.com/37235144/83595016-a5a26100-a515-11ea-8767-1adcbe9919de.png)
+
+
+
+
